@@ -1,0 +1,318 @@
+/* Global CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+section{
+    padding: 50px;
+}
+
+.heading{
+    margin: 20px auto;
+    font-size: 45px;
+}
+
+.sub-heading{
+    margin: 20px 10px;
+}
+
+.underline{
+    border: 3px solid;
+    border-radius: 10px;
+    width: 5%;
+    margin: 20px auto;
+}
+
+.writing{
+    margin-bottom: 50px;
+}
+
+.box-part{
+    margin: 50px 0px;
+}
+
+.box{
+    padding: 0px 90px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 20px;
+    margin: 20px 3px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 20px;
+    margin: 50px 0px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+  }
+
+/* Header Area */
+
+header{
+    background-color: #87509c;
+    color: #ffff;
+}
+
+nav{
+    margin-bottom: 50px;
+    padding: 30px 0px;
+}
+
+.logo{
+    padding: 0px 200px;
+}
+
+.menu ul{
+    text-align: end;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.menu a{
+    font-size: 20px;
+    color: #ffff;
+    padding: 7px;
+}
+
+.menu a:hover{
+    background-color: #643a79;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.hero{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.hero h1{
+    font-size: 50px;
+    line-height: 50px;
+    padding: 0px 300px;
+}
+
+.hero button{
+    background-color: #eb7d4b;
+    width: 300px;
+}
+
+/* Service Area */
+
+#service{
+    background-color: #17c2a4;
+    color: #ffff;
+    text-align: center;
+}
+
+#service .underline{
+    color: #14a58c;
+}
+
+/* Team Area */
+
+#team{
+    background-color: #e7f1f8;
+    float: left;
+    color: #3c4761;
+    text-align: center;
+}
+
+#team .underline{
+    color: #c8d9e5;
+}
+
+#team .pt{
+    color: #30bae7;
+    margin: 20px auto;
+}
+
+.icon-box{
+    margin-top: 15px;
+}
+
+.icon-box i{
+    padding: 15px;
+    margin: 0px 4px;
+    background-color: #bdd1df;
+    border-radius: 30px;
+}
+
+.icon-box i:hover{
+    background-color: #30bae7;
+}
+
+/* Skills Area */
+
+#skills{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#skills .underline{
+    color: #dfe8ed;
+}
+
+/* Portfolio Area */
+
+#portfolio{
+    background-color: #ffdd99;
+    float: left;
+    color: #3c4761;
+    text-align: center;
+}
+
+#portfolio .underline{
+    color: #e5c37f;
+}
+
+#portfolio .box-part button{
+    background-color: #17c2a4;
+    width: 300px;
+}
+
+.writing button{
+    background-color: #ebc985;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 20px 5px;
+}
+
+.writing button:hover{
+    background-color: #ffffff;
+}
+
+/* About Area */
+
+#about{
+    background-color: #d74680;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#about .underline{
+    color: #b73c6d;
+}
+
+#about .pt{
+    color: #fac996;
+    line-height: 0px;
+}
+
+#about .box-part{
+    text-align: left;
+    line-height: 0px;
+}
+
+#about .box-part h2{
+    margin: 40px 0px 3px;
+}
+
+/* Contact Area */
+
+#contact{
+    background-color: #3c5499;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+#contact .box-part button{
+    width: 300px;
+    background-color: #30bae7;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #273a71;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #ffffff;
+}
+
+.form1{
+}
+
+input[type="text"]{
+    width: 98%;
+    margin-right: 2%;
+}
+input[type="email"]{
+    width: 98%;
+    margin-left: 2%;
+}
+
+
+/* Footer Area */
+
+footer{
+    background-color: #344b8e;
+    text-align: center;
+}
+
+footer .btn{
+    background-color: #344b8e;
+    padding: 0px 50px;
+}
+
+footer .btn:hover{
+    color: #30bae7;
+}
